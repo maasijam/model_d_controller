@@ -7,8 +7,7 @@
   by Notes and Volts
   www.notesandvolts.com
 
-  Version 1.2 **Arduino UNO ONLY!**
-  
+    
   Modified by maasijam to work with TEENSY LC
  *************************************************************/
 
