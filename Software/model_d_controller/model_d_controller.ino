@@ -29,20 +29,16 @@ byte NUMBER_DIRECT_SWITCHES = 2;
 //---How many potentiometers are connected directly to pins?--
 byte NUMBER_DIRECT_POTS = 4;
 
-//************************************************************
 
-//***ANY MULTIPLEXERS? (74HC4067)************************************
-//MUX address pins must be connected to Arduino UNO pins 2,3,4,5
-//A0 = PIN2, A1 = PIN3, A2 = PIN4, A3 = PIN5
+//***ANY MULTIPLEXERS? (74HC4051)************************************
+//MUX address pins must be connected to Teensy pins 2,3,4
 //*******************************************************************
 
-Mux M1(6, 8, false); //Digital multiplexer on Arduino pin 5
-Mux M2(5, 8, false); //Digital multiplexer on Arduino pin 6
+Mux M1(6, 8, false); //Digital multiplexer on Arduino pin 6
+Mux M2(5, 8, false); //Digital multiplexer on Arduino pin 5
 Mux M3(A0, 8, true); //Analog multiplexer on Arduino analog pin A0
 Mux M4(A1, 8, true); //Analog multiplexer on Arduino analog pin A1
 Mux M5(A2, 8, true); //Analog multiplexer on Arduino analog pin A2
-//*******************************************************************
-
 
 
 //***DEFINE BUTTONS CONNECTED TO MULTIPLEXER*************************
@@ -59,7 +55,6 @@ Button MBU5(M2, 4, 2, 20, 1, 5);
 //Add multiplexed buttons used to array below like this->  Button *MUXBUTTONS[] {&MBU1, &MBU2, &MBU3, &MBU4, &MBU5, &MBU6.....};
 Button *MUXBUTTONS[] {&MBU1, &MBU2, &MBU3, &MBU4, &MBU5};
 
-//*******************************************************************
 
 //***DEFINE SWITCHES CONNECTED TO MULTIPLEXER*************************
 //Button::Button(Mux mux, byte muxpin, byte command, byte value, byte channel, byte debounce)
@@ -91,8 +86,6 @@ Button *DIRECTSWITCHES[] {&SW9, &SW10};
 //****************************************
 
 
-//*******************************************************************
-
 //***DEFINE POTENTIOMETERS CONNECTED TO MULTIPLEXER*******************
 //Pot::Pot(Mux mux, byte muxpin, byte command, byte control, byte channel)
 //**Command parameter is for future use**
@@ -121,7 +114,7 @@ Pot MP21(M5, 4, 0, 113, 1);
 Pot MP22(M5, 5, 0, 114, 1);
 Pot MP23(M5, 6, 0, 115, 1);
 Pot MP24(M5, 7, 0, 116, 1);
-//*******************************************************************
+
 //Add multiplexed pots used to array below like this->  Pot *MUXPOTS[] {&MPO1, &MPO2, &MPO3, &MPO4, &MPO5, &MPO6.....};
 Pot *MUXPOTS[] {&MPO1, &MPO2, &MPO3, &MPO4, &MPO5, &MPO6, &MPO7, &MPO8, &MPO9, &MP10, &MP11, &MP12, &MP13, &MP14, &MP15, &MP16, &MP17, &MP18, &MP19, &MP20, &MP21, &MP22, &MP23, &MP24};
 //*******************************************************************
@@ -140,8 +133,6 @@ Pot DPO4(A6, 0, 1, 1);
 Pot *DIRECTPOTS[] {&DPO1, &DPO2, &DPO3, &DPO4};
 //*******************************************************************
 
-
-int ctrlChange = 176; // Midi channel 1
 const int channel = 1; // MIDI channel
 
 const int ledPin[] = {10,8,12,9,11}; 
@@ -295,4 +286,3 @@ void updateDirectSwitches() {
     }
   }
 }
-//*******************************************************************
