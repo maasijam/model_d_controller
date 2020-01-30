@@ -7,5 +7,6 @@ Teensy based USB Midi-Controller for the Moog Model D App
 )
 
 The controller in action (YouTube link)
+
 [![Teensy DIY Midi Controller Jam - Moog Model D App, Fugue Machine](https://img.youtube.com/vi/qR_zFrnvdvk/0.jpg)](https://www.youtube.com/watch?v=qR_zFrnvdvk)
 
