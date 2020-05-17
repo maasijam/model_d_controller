@@ -1,6 +1,8 @@
 # model_d_controller
 Teensy based USB Midi-Controller for the Moog Model D App
 
+![Assembly guide](Hardware/modeld_controller_assembly_guide.pdf)
+
 ![maasijam model d midi controller](Images/maasijam_model_d_controller.jpg)
 
 ![maasijam model d midi controller PCBs](Images/maasijam_model_d_controller_pcbs.jpg
