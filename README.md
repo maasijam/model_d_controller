@@ -1,5 +1,5 @@
 # model_d_controller
-Teensy based USB Midi-Controller for the Moog Model D App
+Teensy based USB Midi-Controller for the Moog Model D App (and of course all other USB-MIDI devices)
 
 ![Assembly guide](Hardware/modeld_controller_assembly_guide.pdf)
 
