@@ -3,7 +3,7 @@ Maasijam Model D Controller BOM v1.0,,
 Name,Quantity,Link
 "DI 12MM Spacers, metal, 6-edge, M3",5,https://www.reichelt.de/spacers-metal-6-edge-m3-12-mm-di-12mm-p44769.html?
 "DA 10MM Spacers, metal, 6-edge, M3",4,https://www.reichelt.de/spacers-metal-6-edge-m3-10-mm-da-10mm-p7017.html?
-Screws M3 6mm,10,
+Screws M3 6mm,10,https://www.ebay.de/itm/253379729102
 B5K Tall Trimmer 9mm,25,https://www.thonk.co.uk/shop/ttpots/
 B5K D Shaft Alpha 9mm,3,https://www.thonk.co.uk/shop/alpha-9mm-pots-dshaft/
 2PS - Medium Pointer (D Shaft) - Rogan PT Plastic Knob ,3,https://www.thonk.co.uk/shop/make-noise-mutable-style-knobs/
@@ -14,8 +14,8 @@ LED 3mm red,5,
 74HC4051 Multiplexer,5,
 Teensy LC,1,
 IC socket 16 Pin,5,
-R1K,5,
-R10K,1,
+R1K,5,https://www.reichelt.de/widerstand-metallschicht-1-00-kohm-0207-0-6-w-1--metall-1-00k-p11403.html?&trstct=pol_0&nbc=1
+R10K,1,https://www.reichelt.de/widerstand-metallschicht-10-0-kohm-0207-0-6-w-1--metall-10-0k-p11449.html?&trstct=pol_0&nbc=1
 Header Connector 2.54 mm,,https://www.amazon.de/gp/product/B01M69EA9O/
 "USB BW USB panel socket, series B",1,https://www.reichelt.de/usb-panel-socket-series-b-angled-pcb-assembly-usb-bw-p22186.html?
 "Bumper, self-adhesive, Ø 12,7 mm, black",5,https://www.reichelt.de/bumper-self-adhesive-12-7-mm-black-rnd-455-00508-p211687.html?
