@@ -1,21 +1,21 @@
-Maasijam Model D Controller BOM v1.0,,
-,,
-Name,Quantity,Link
-"DI 12MM Spacers, metal, 6-edge, M3",5,https://www.reichelt.de/spacers-metal-6-edge-m3-12-mm-di-12mm-p44769.html?
-"DA 10MM Spacers, metal, 6-edge, M3",4,https://www.reichelt.de/spacers-metal-6-edge-m3-10-mm-da-10mm-p7017.html?
-Screws M3 6mm,10,https://www.ebay.de/itm/253379729102
-B5K Tall Trimmer 9mm,25,https://www.thonk.co.uk/shop/ttpots/
-B5K D Shaft Alpha 9mm,3,https://www.thonk.co.uk/shop/alpha-9mm-pots-dshaft/
-2PS - Medium Pointer (D Shaft) - Rogan PT Plastic Knob ,3,https://www.thonk.co.uk/shop/make-noise-mutable-style-knobs/
-Toggleswitch SPDT,10,https://www.musikding.de/Toggleswitch-SPDT
-Red Push Button Befaco,5,https://www.thonk.co.uk/shop/befaco-parts/
-Switch Caps Red Befaco,10,https://www.thonk.co.uk/shop/befaco-parts/
-LED 3mm red,5,
-74HC4051 Multiplexer,5,
-Teensy LC,1,
-IC socket 16 Pin,5,
-R1K,5,https://www.reichelt.de/widerstand-metallschicht-1-00-kohm-0207-0-6-w-1--metall-1-00k-p11403.html?&trstct=pol_0&nbc=1
-R10K,1,https://www.reichelt.de/widerstand-metallschicht-10-0-kohm-0207-0-6-w-1--metall-10-0k-p11449.html?&trstct=pol_0&nbc=1
-Header Connector 2.54 mm,,https://www.amazon.de/gp/product/B01M69EA9O/
-"USB BW USB panel socket, series B",1,https://www.reichelt.de/usb-panel-socket-series-b-angled-pcb-assembly-usb-bw-p22186.html?
-"Bumper, self-adhesive, Ø 12,7 mm, black",5,https://www.reichelt.de/bumper-self-adhesive-12-7-mm-black-rnd-455-00508-p211687.html?
+"Maasijam Model D Controller BOM v1.1"			
+			
+"Name"	"Quantity"	"Link"	"USA Supplier Link"
+"DI 12MM Spacers, metal, 6-edge, M3"	5	"https://www.reichelt.de/spacers-metal-6-edge-m3-12-mm-di-12mm-p44769.html?"	"https://www.mouser.com/ProductDetail/Harwin/R30-1011202?qs=vF78I%2BjhbY%2BWTLXZq9mDWA==&mgh=1"
+"DA 10MM Spacers, metal, 6-edge, M3"	4	"https://www.reichelt.de/spacers-metal-6-edge-m3-10-mm-da-10mm-p7017.html?"	"https://www.mouser.com/ProductDetail/Wurth-Elektronik/971100324?qs=wr8lucFkNMUfR5dkPN54mg=="
+"Screws M3 6mm"	10	"https://www.ebay.de/itm/253379729102"	"https://www.amazon.com/gp/product/B077V1CWQ3/ref=ox_sc_act_title_1"
+"B5K Tall Trimmer 9mm"	25	"https://www.thonk.co.uk/shop/ttpots/"	"https://modularaddict.com/tall-trimmer-potentiometers-9mm"
+"B5K D Shaft Alpha 9mm"	3	"https://www.thonk.co.uk/shop/alpha-9mm-pots-dshaft/"	"https://www.amplifiedparts.com/products/potentiometer-alpha-linear-9mm-vertical-d-shaft"
+"2PS - Medium Pointer (D Shaft) - Rogan PT Plastic Knob "	3	"https://www.thonk.co.uk/shop/make-noise-mutable-style-knobs/"	"https://www.amplifiedparts.com/products/knob-rogan-pt-series-2ps-medium-skirted-pointer-d-shaft"
+"Toggleswitch SPDT"	10	"https://www.musikding.de/Toggleswitch-SPDT"	"https://www.amplifiedparts.com/products/switch-g-rva-mini-toggle-spdt-2-position-solder-lugs-medium-bat"
+"Red Push Button Befaco"	5	"https://www.thonk.co.uk/shop/befaco-parts/"	"https://www.aliexpress.us/item/2251832525026350.html"
+"Switch Caps Red Befaco"	10	"https://www.thonk.co.uk/shop/befaco-parts/"	"https://www.amplifiedparts.com/products/switch-accessory-mini-toggle-caps-standard-bat-11-colors"
+"LED 3mm red"	5		"https://www.amplifiedparts.com/products/led-3mm-diameter-diffused-lens-36-mcd"
+"74HC4051 Multiplexer"	5		"https://www.sparkfun.com/products/13906"
+"Teensy LC"	1		
+"IC socket 16 Pin"	5		"https://www.mouser.com/ProductDetail/Harwin/D2816-42?qs=ecHgFjcWJS/h4dqDTdRffA=="
+"R1K"	5	"https://www.reichelt.de/widerstand-metallschicht-1-00-kohm-0207-0-6-w-1--metall-1-00k-p11403.html?&trstct=pol_0&nbc=1"	"https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MBA02040C1001FRP00?qs=LkqrmUh5PILp63ntvCnX0w=="
+"R10K"	1	"https://www.reichelt.de/widerstand-metallschicht-10-0-kohm-0207-0-6-w-1--metall-10-0k-p11449.html?&trstct=pol_0&nbc=1"	"https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MBA02040C1002FC100?qs=nlQjf3QnJCoHnMMMaOw/FA=="
+"Header Connector 2.54 mm"		"https://www.amazon.de/gp/product/B01M69EA9O/"	"https://www.amazon.com/2-54mm-Breakaway-Female-Connector-Arduino/dp/B01MQ48T2V/ref=sr_1_1"
+"USB BW USB panel socket, series B"	1	"https://www.reichelt.de/usb-panel-socket-series-b-angled-pcb-assembly-usb-bw-p22186.html?"	"https://www.mouser.com/ProductDetail/GCT/USB1030-GF-P-B-B?qs=KUoIvG/9Ila4yhPpaOZhHA=="
+"Bumper, self-adhesive, Ø 12,7 mm, black"	5	"https://www.reichelt.de/bumper-self-adhesive-12-7-mm-black-rnd-455-00508-p211687.html?"	"https://www.mouser.com/ProductDetail/Keystone-Electronics/780-B?qs=4YCxx6TgL4WdSJO8H159gQ=="
